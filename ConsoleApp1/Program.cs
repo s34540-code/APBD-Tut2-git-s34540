@@ -14,3 +14,5 @@ int number = 5;
 
 Console.WriteLine("Enter a number");
 int number2 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("For Task 6 ");
