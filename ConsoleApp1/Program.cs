@@ -10,3 +10,7 @@ for (int i = 1; i < 10; i++)
 }
 
 int number = 5;
+
+
+Console.WriteLine("Enter a number");
+int number2 = int.Parse(Console.ReadLine());
