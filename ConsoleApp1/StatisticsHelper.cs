@@ -2,5 +2,15 @@ namespace ConsoleApp1;
 
 public class StatisticsHelper
 {
+    public static double CalculateAverage(int[] values)
+    {
+        if (values == null || values.Length == 0)
+            return 0;
     
+        double sum = 0;
+        foreach (var v in values)
+            sum += v;
+
+        return sum / values.Length;
+    }
 }
