@@ -9,7 +9,7 @@ for (int i = 1; i < 10; i++)
     Console.WriteLine(i);
 }
 
-int number = 5;
+int number = 4;
 
 
 Console.WriteLine("Enter a number");
